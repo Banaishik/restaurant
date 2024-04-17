@@ -643,3 +643,32 @@ body {
     }
     
 }
+
+@media (max-width : 680px) {
+    .wino {
+        display: none;
+    }
+
+    .block_holder {
+        display: block;
+        padding: 120px 0 ;
+    }
+
+    .left {
+        margin: 20px 0;
+    }
+
+    .right_btn {
+        margin: 20px 0;
+    }
+
+    .container {
+        margin : 0 30px;
+    }
+}
+
+@media (max-width : 380px) {
+    .container {
+        margin : 0 15px;
+    }
+}
